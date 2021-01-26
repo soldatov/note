@@ -1,0 +1,25 @@
+{
+    "name": "soldatov/probe-phpspreadsheet",
+    "description": "Hello world for phpoffice/phpspreadsheet.",
+    "type": "project",
+    "license": "unlicense",
+    "authors": [
+        {
+            "name": "Anatoly Soldatov",
+            "email": "soldatov.anatoly@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    }
+}
