@@ -1,6 +1,6 @@
-# Шпаргалки для разработки.
+# Notes dev
 
-## Документация и полезные статьи:
+## Documentation, examples, and helpful articles
 
 ### Docker
 * [Commands Docker](https://docs.docker.com/engine/reference/run/)
