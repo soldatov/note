@@ -1,11 +1,9 @@
 # Notes dev
 
-## Documentation, examples, and helpful articles
-
-### Docker
+## Docker
 * [Commands Docker](https://docs.docker.com/engine/reference/run/)
 
-#### Docer volumes on different OS
+### Docer volumes on different OS
 
 ```
 # If Windows CMD
@@ -16,9 +14,13 @@
 > docker run -v /$(pwd):/app app:1
 ```
 
-### Docker Compose
+## Docker Compose
 * [Commands Docker Compose](https://docs.docker.com/compose/reference/)
 * [Specification docker-compose.yml](https://docs.docker.com/compose/compose-file/)
 
-### Nginx
+## Nginx
 * https://nginx.org/ru/docs/
+
+## Jenkins
+
+* [Jenkins function list for pipeline](https://www.jenkins.io/doc/pipeline/steps/)
