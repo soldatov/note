@@ -19,7 +19,7 @@
 * [Specification docker-compose.yml](https://docs.docker.com/compose/compose-file/)
 
 ## Nginx
-* https://nginx.org/ru/docs/
+* [Doc Nginx](https://nginx.org/ru/docs/)
 
 ## Traefik
 * [Doc Traefik](https://doc.traefik.io/traefik/)
