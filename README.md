@@ -22,8 +22,11 @@
 * https://nginx.org/ru/docs/
 
 ## Traefik
-* [Doc](https://doc.traefik.io/traefik/)
+* [Doc Traefik](https://doc.traefik.io/traefik/)
 
 ## Jenkins
-
 * [Jenkins function list for pipeline](https://www.jenkins.io/doc/pipeline/steps/)
+
+## Minio
+* [Doc Minio](https://docs.minio.io/)
+* [Amazon S3 PHP Class](https://github.com/tpyo/amazon-s3-php-class)
