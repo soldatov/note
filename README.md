@@ -1,5 +1,8 @@
 # Notes dev
 
+## PHP
+* [Green Zone PHP](https://www.php.net/supported-versions.php)
+
 ## Docker
 * [Commands Docker](https://docs.docker.com/engine/reference/run/)
 
