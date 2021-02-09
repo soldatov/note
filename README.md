@@ -1,7 +1,14 @@
-# Notes dev
+# Developer Anatoly's Notes
 
 ## PHP
 * [Green Zone PHP](https://www.php.net/supported-versions.php)
+
+## Swagger
+* Symfony: [NelmioApiDocBundle](https://symfony.com/doc/4.x/bundles/NelmioApiDocBundle/index.html)
+* [Demo petstore.swagger.io](https://petstore.swagger.io)
+* Github: [Demo petstore.swagger.io code](https://github.com/zircote/swagger-php/tree/master/Examples/petstore.swagger.io)
+* Github: [OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification)
+* [Standards of schemas CreativeWork](https://schema.org/CreativeWork)
 
 ## Docker
 * [Commands Docker](https://docs.docker.com/engine/reference/run/)
@@ -32,4 +39,4 @@
 
 ## Minio
 * [Doc Minio](https://docs.minio.io/)
-* [Amazon S3 PHP Class](https://github.com/tpyo/amazon-s3-php-class)
+* Github: [Amazon S3 PHP Class](https://github.com/tpyo/amazon-s3-php-class)
