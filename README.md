@@ -2,6 +2,7 @@
 
 ## PHP
 * [Green Zone PHP](https://www.php.net/supported-versions.php)
+* [JSON to PHP class generator](https://json2php.strikebit.io)
 
 ## Swagger
 * Symfony: [NelmioApiDocBundle](https://symfony.com/doc/4.x/bundles/NelmioApiDocBundle/index.html)
