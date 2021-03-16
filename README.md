@@ -4,6 +4,10 @@
 * [Green Zone PHP](https://www.php.net/supported-versions.php)
 * [JSON to PHP class generator](https://json2php.strikebit.io)
 
+### Xdebug
+* [Upgrading from Xdebug 2 to 3](https://xdebug.org/docs/upgrade_guide)
+* Soldatov: [Example Xdebug in Docker](https://github.com/soldatov/example-xdebug-docker)
+
 ## Swagger
 * Symfony: [NelmioApiDocBundle](https://symfony.com/doc/4.x/bundles/NelmioApiDocBundle/index.html)
 * [Demo petstore.swagger.io](https://petstore.swagger.io)
