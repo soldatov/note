@@ -8,7 +8,10 @@
 * [Upgrading from Xdebug 2 to 3](https://xdebug.org/docs/upgrade_guide)
 * Soldatov: [Example Xdebug in Docker](https://github.com/soldatov/example-xdebug-docker)
 
-## Swagger
+### Symfony
+* Symfony: [Validation Constraints](https://symfony.com/doc/current/reference/constraints.html)
+
+### Swagger
 * Symfony: [NelmioApiDocBundle](https://symfony.com/doc/4.x/bundles/NelmioApiDocBundle/index.html)
 * [Demo petstore.swagger.io](https://petstore.swagger.io)
 * Github: [Demo petstore.swagger.io code](https://github.com/zircote/swagger-php/tree/master/Examples/petstore.swagger.io)
@@ -29,7 +32,7 @@
 > docker run -v /$(pwd):/app app:1
 ```
 
-## Docker Compose
+### Docker Compose
 * [Commands Docker Compose](https://docs.docker.com/compose/reference/)
 * [Specification docker-compose.yml](https://docs.docker.com/compose/compose-file/)
 
