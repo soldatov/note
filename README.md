@@ -44,6 +44,7 @@
 
 ## Jenkins
 * [Jenkins function list for pipeline](https://www.jenkins.io/doc/pipeline/steps/)
+* [Jenkins syntax](https://www.jenkins.io/doc/book/pipeline/syntax/)
 
 ## Minio
 * [Doc Minio](https://docs.minio.io/)
