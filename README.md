@@ -2,6 +2,8 @@
 
 ## PHP
 * [Green Zone PHP](https://www.php.net/supported-versions.php)
+* [PhpMetrics](https://phpmetrics.org/)
+* [Psalm](https://psalm.dev/)
 * [JSON to PHP class generator](https://json2php.strikebit.io)
 
 ### Xdebug
