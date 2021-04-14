@@ -14,6 +14,7 @@
 * Symfony: [Validation Constraints](https://symfony.com/doc/current/reference/constraints.html)
 
 ### Swagger
+* Github: [Install Swagger UI in Docker](https://github.com/swagger-api/swagger-ui/blob/master/docs/usage/installation.md#docker)
 * Symfony: [NelmioApiDocBundle](https://symfony.com/doc/4.x/bundles/NelmioApiDocBundle/index.html)
 * [Demo petstore.swagger.io](https://petstore.swagger.io)
 * Github: [Demo petstore.swagger.io code](https://github.com/zircote/swagger-php/tree/master/Examples/petstore.swagger.io)
