@@ -5,6 +5,7 @@
 * [PhpMetrics](https://phpmetrics.org/)
 * [Psalm](https://psalm.dev/)
 * [JSON to PHP class generator](https://json2php.strikebit.io)
+* [PECL](http://pecl.php.net/)
 
 ### Xdebug
 * [Upgrading from Xdebug 2 to 3](https://xdebug.org/docs/upgrade_guide)
@@ -23,6 +24,7 @@
 
 ## Docker
 * [Commands Docker](https://docs.docker.com/engine/reference/run/)
+* Github: [PHP extension installer](https://github.com/mlocati/docker-php-extension-installer)
 
 ### Docer volumes on different OS
 
