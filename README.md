@@ -12,6 +12,9 @@
 * [Upgrading from Xdebug 2 to 3](https://xdebug.org/docs/upgrade_guide)
 * Soldatov: [Example Xdebug in Docker](https://github.com/soldatov/example-xdebug-docker)
 
+#### XHProf
+* Soldatov: [Example XHProf in Docker](https://github.com/soldatov/example-xhprof-73)
+
 #### Symfony
 * Symfony: [Validation Constraints](https://symfony.com/doc/current/reference/constraints.html)
 
