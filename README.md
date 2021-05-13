@@ -15,6 +15,12 @@
 #### XHProf
 * Soldatov: [Example XHProf in Docker](https://github.com/soldatov/example-xhprof-73)
 
+#### Composer
+```
+# Быстрая установка без проверки платформы и запуска скриптов.
+> docker run --rm -v ${PWD}:/app composer composer install --ignore-platform-reqs --no-scripts
+```
+
 #### Symfony
 * Symfony: [Validation Constraints](https://symfony.com/doc/current/reference/constraints.html)
 
