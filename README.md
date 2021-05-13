@@ -47,7 +47,7 @@
 
 ### Nginx
 * [Doc Nginx](https://nginx.org/ru/docs/)
-* [CORS](https://enable-cors.org)
+* [CORS](https://enable-cors.org) (Server->Nginx)
 
 ### Traefik
 * [Doc Traefik](https://doc.traefik.io/traefik/)
