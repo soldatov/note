@@ -2,6 +2,10 @@
 
 ## Used technologies
 
+### IDE
+
+* [.editorconfig](https://editorconfig.org/)
+
 ### PHP
 * [Green Zone PHP](https://www.php.net/supported-versions.php)
 * [PhpMetrics](https://phpmetrics.org/)
@@ -72,3 +76,4 @@
 ## Online tools
 
 * [JSON to PHP class generator](https://json2php.strikebit.io)
+* [JSON parser](http://json.parser.online.fr/)
