@@ -1,6 +1,6 @@
 {
-    "name": "soldatov/probe-phpspreadsheet",
-    "description": "Hello world for phpoffice/phpspreadsheet.",
+    "name": "soldatov/note",
+    "description": "Description note",
     "type": "project",
     "license": "unlicense",
     "authors": [

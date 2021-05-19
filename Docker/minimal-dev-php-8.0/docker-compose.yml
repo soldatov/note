@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+
+  phpfpm:
+    container_name:  example-php
+    image:  example-php
+    build:
+      context: ./docker-files/dev/php
+    env_file:
+      - .env.local
+    user: "${HOST_UID}:${HOST_GID}"
+    volumes:
+      - .:/app
+
+  nginx:
+    container_name:  example-nginx
+    image:  example-nginx
+    build:
+      context: docker-files/dev/nginx
+    env_file:
+      - .env.local
+    ports:
+      - 80:80
+    depends_on:
+      - phpfpm
+    volumes:
+      - .:/app
