@@ -65,6 +65,9 @@
 ### Traefik
 * [Doc Traefik](https://doc.traefik.io/traefik/)
 
+### Redis
+* [Redis Gui rdm.dev](https://rdm.dev/)
+
 ### Jenkins
 * [Jenkins function list for pipeline](https://www.jenkins.io/doc/pipeline/steps/)
 * [Jenkins syntax](https://www.jenkins.io/doc/book/pipeline/syntax/)
