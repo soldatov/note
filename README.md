@@ -27,6 +27,7 @@
 
 #### Symfony
 * Symfony: [Validation Constraints](https://symfony.com/doc/current/reference/constraints.html)
+* Symfony: [MicroKernelTrait](https://symfony.ru/doc/current/configuration/micro_kernel_trait.html)
 
 #### Laravel
 * Laravel: [Facades](https://laravel.com/docs/8.x/facades#facade-class-reference)

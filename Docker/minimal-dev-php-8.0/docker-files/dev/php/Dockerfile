@@ -5,6 +5,7 @@ COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr
 RUN apt update && apt -y install zip unzip git \
     && install-php-extensions xdebug \
     && install-php-extensions @composer-2 \
+    && mkdir /.composer && chmod ugo+w /.composer \
     && apt clean \
     && cp /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 
