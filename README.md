@@ -11,6 +11,7 @@
 * [PhpMetrics](https://phpmetrics.org/)
 * [Psalm](https://psalm.dev/)
 * [PECL](http://pecl.php.net/)
+* [Паттерны](https://designpatternsphp.readthedocs.io/ru/latest/README.html)
 
 #### Xdebug
 * [Upgrading from Xdebug 2 to 3](https://xdebug.org/docs/upgrade_guide)
