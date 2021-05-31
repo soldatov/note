@@ -17,7 +17,7 @@ services:
     container_name:  example-nginx
     image:  example-nginx
     build:
-      context: docker-files/dev/nginx
+      context: ./docker-files/dev/nginx
     env_file:
       - .env.local
     ports:
