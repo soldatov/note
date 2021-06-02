@@ -40,6 +40,8 @@
 * Github: [Demo petstore.swagger.io code](https://github.com/zircote/swagger-php/tree/master/Examples/petstore.swagger.io)
 * Github: [OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification)
 * [Standards of schemas CreativeWork](https://schema.org/CreativeWork)
+* Soldatov: [Пример генерации клиента для PHP](https://github.com/soldatov/tester) в разделе Swagger codegen.
+* Github: [Список сценариев генерации](https://github.com/swagger-api/swagger-codegen/releases) пишется в релизах.
 
 ### Docker
 * [Commands Docker](https://docs.docker.com/engine/reference/run/)
