@@ -64,6 +64,7 @@
 
 ### Nginx
 * [Doc Nginx](https://nginx.org/ru/docs/)
+* [Алфавитный указатель переменных](http://nginx.org/ru/docs/varindex.html)
 * [CORS](https://enable-cors.org) (Server->Nginx)
 
 ### Traefik
