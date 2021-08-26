@@ -73,6 +73,13 @@
 ### Redis
 * [Redis Gui rdm.dev](https://rdm.dev/)
 
+### Mail Catcher
+```
+# symfony env: MAILER_DSN=smtp://host.docker.internal:1025
+# Web GUI URL: http://localhost:1080
+> docker run -d -p 1025:1025 -p 1080:1080 --name mailcatcher jeanberu/mailcatcher
+```
+
 ### Jenkins
 * [Jenkins function list for pipeline](https://www.jenkins.io/doc/pipeline/steps/)
 * [Jenkins syntax](https://www.jenkins.io/doc/book/pipeline/syntax/)
