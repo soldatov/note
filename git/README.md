@@ -1,8 +1,17 @@
 # Git configuration
 
+## Git
+
+Конфигурация в файле `~/.gitconfig`.
+
 ## GPG
 
-Для правильно работы gpg:
+Качаем сайта https://gnupg.org/ на хостовую машину Windows Gpg4win.
+
+На WSL2 машину устанавливается GnuPG.  
+Файлы конфигурации `~/.gnupg/gpg.conf` и `~/.gnupg/gpg-agent.conf` есть в примере.
+
+Для правильной работы gpg:
 
 ```shell
 > export GPG_TTY=$(tty)

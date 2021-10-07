@@ -1,0 +1,10 @@
+[user]
+	name = Anatoly Soldatov
+	email = soldatov.anatoly@gmail.com
+	signingkey = XX16XX16XX16XX16
+[commit]
+	gpgsign = true
+[gpg]
+    program = gpg
+[core]
+    autocrlf = input

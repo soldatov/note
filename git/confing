@@ -1,6 +1,0 @@
-[commit]
-	gpgsign = true
-[user]
-	name = Anatoly Soldatov
-	email = soldatov.anatoly@gmail.com
-	signingkey = XX16XX16XX16XX16
