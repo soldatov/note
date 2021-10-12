@@ -92,3 +92,6 @@
 
 * [JSON to PHP class generator](https://json2php.strikebit.io)
 * [JSON parser](http://json.parser.online.fr/)
+
+## Programm tools
+* XML парсер. Открывает большие файлы. http://www.firstobject.com/dn_editor.htm
