@@ -11,6 +11,13 @@
 На WSL2 машину устанавливается GnuPG.  
 Файлы конфигурации `~/.gnupg/gpg.conf` и `~/.gnupg/gpg-agent.conf` есть в примере.
 
+На Mac для pinentry program прописать
+
+```bash
+echo "pinentry-program /opt/homebrew/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf 
+killall gpg-agent
+```
+
 Для правильной работы gpg:
 
 ```shell
