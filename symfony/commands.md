@@ -1,6 +1,6 @@
 # Symfony commands
 
-Книга рецептор для работы с командами Symfony.
+Книга рецептов для работы с командами Symfony.
 
 ## make:migration
 
