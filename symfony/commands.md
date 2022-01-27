@@ -16,12 +16,18 @@
 Опции:
 
 * `namespace` (VALUE_REQUIRED) - Пространство имен, используемое для миграции (должно быть в списке настроенных пространств имен).
-* `filter-expression` (VALUE_REQUIRED) - Таблицы, отфильтрованные регулярным выражением.
+* `filter-expression` (VALUE_REQUIRED) - Таблицы, отфильтрованные регулярным выражением. Используются только имена таблиц, без имени базы.
 * `formatted` (VALUE_NONE) - Sql будет отформатирован.
 * `line-length` (VALUE_REQUIRED) - Максимальная длина неформатированных строк. По-умолчанию 120.
 * `check-database-platform` (VALUE_OPTIONAL) - Проверить базу данных на сгенерированный код. По умолчанию false.
 * `allow-empty-diff` (VALUE_NONE) - Не создавать исключение, если не обнаружено никаких изменений.
 * `from-empty-schema` (VALUE_NONE) - Создайте полную миграцию, как если бы текущая база данных была пустой.
+
+Пример. Создать миграцию только для определенной таблицы. table_name можно посмотреть в аннотации (или атрибуте) ORM\Table сущности.
+
+```
+bin/console doctrine:migrations:diff --filter-expression="/^table_name$/" --formatted
+```
 
 ## make:entity
 
