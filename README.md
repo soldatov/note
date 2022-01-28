@@ -43,6 +43,11 @@
 * Soldatov: [Пример генерации клиента для PHP](https://github.com/soldatov/tester) в разделе Swagger codegen.
 * Github: [Список сценариев генерации](https://github.com/swagger-api/swagger-codegen/releases) пишется в релизах.
 
+#### Rector
+* [getrector.org](https://getrector.org)
+* Github: [rectorphp](https://github.com/rectorphp/rector)
+* Soldatov: Конвертация аннотаций в атрибуты. [Пример](https://github.com/soldatov/note/rector/example1)
+
 ### Docker
 * [Commands Docker](https://docs.docker.com/engine/reference/run/)
 * Github: [PHP extension installer](https://github.com/mlocati/docker-php-extension-installer)
