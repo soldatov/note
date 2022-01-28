@@ -46,7 +46,7 @@
 #### Rector
 * [getrector.org](https://getrector.org)
 * Github: [rectorphp](https://github.com/rectorphp/rector)
-* Soldatov: Конвертация аннотаций в атрибуты. [Пример](https://github.com/soldatov/note/rector/example1)
+* Soldatov: Конвертация аннотаций в атрибуты. [Пример](https://github.com/soldatov/note/tree/master/rector/example1)
 
 ### Docker
 * [Commands Docker](https://docs.docker.com/engine/reference/run/)
