@@ -3,7 +3,7 @@
 namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiResource;
-use App\Repository\FfeReportRepository;
+use App\Repository\ExampleRepository;
 use DateTime;
 use DateTimeInterface;
 use Doctrine\ORM\Mapping as ORM;
@@ -41,7 +41,7 @@ use JetBrains\PhpStorm\Pure;
     paginationMaximumItemsPerPage: 100,
     routePrefix: 'example/name',
 )]
-class FfeDividendReport
+class Example
 {
     #[ORM\Id]
     #[ORM\Column(name: 'id', type: 'integer', nullable: false)]
