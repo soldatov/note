@@ -13,6 +13,7 @@ use JetBrains\PhpStorm\Pure;
 #[ORM\Table(name: 'db_name.example')]
 #[ORM\UniqueConstraint(name: 'example_ticker_x', columns: ['file_name', 'ticker'])]
 #[ApiResource(
+    description: 'description, entity.',
     collectionOperations: [
         'get' => [
             'openapi_context' => [
