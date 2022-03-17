@@ -16,6 +16,7 @@ use JetBrains\PhpStorm\Pure;
     description: 'description, entity.',
     collectionOperations: [
         'get' => [
+            'path' => '/examples',
             'openapi_context' => [
                 'summary' => 'Получить ... ',
                 'description' => 'Возвращает ... ',
@@ -24,6 +25,7 @@ use JetBrains\PhpStorm\Pure;
         ],
     ],
     itemOperations: [
+        'path' => '/example/{id}',
         'get' => [
             'openapi_context' => [
                 'summary' => 'Получить ...',
@@ -35,12 +37,13 @@ use JetBrains\PhpStorm\Pure;
     shortName: 'shortName',
     normalizationContext: [
         'groups' => ['list'],
+        'openapi_definition_name' => 'example-list',
     ],
     order: ['id' => 'DESC'],
     paginationEnabled: true,
     paginationItemsPerPage: 30,
     paginationMaximumItemsPerPage: 100,
-    routePrefix: 'example/name',
+    routePrefix: 'example-prefix',
 )]
 class Example
 {
