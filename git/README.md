@@ -49,10 +49,10 @@ killall gpg-agent
 Получить список ключей:
 
 ```shell
-> gpg --list-secret-keys
+> gpg --list-secret-keys --keyid-format LONG
 ```
 
-Получить приватный ключ. В секции `sec`. В примере это `XX16XX16XX16XX16`.
+Получить список приватных ключей с субключами. Приватный ключ - секция sec.
 
 ```shell
 > gpg --list-secret-keys --keyid-format LONG soldatov.anatoly@gmail.com
