@@ -70,6 +70,18 @@ sec   rsa2048/XX16XX16XX16XX16 2020-09-06 [SC] [expires: 2022-02-22]
 
 ```shell
 > echo "test" | gpg --clearsign
+
+# Вывести введеный пароль.
+> echo GETPIN | pinentry
 ```
 
 Проверить работу gpg. Подписывает текст "test". Ключ опция --clearsign говорит, что результат вернуть в консоль в читаемом виде.
+
+### GPG. Решение проблемы `ERR 83918950 Inappropriate ioctl for device <Pinentry>`
+
+```shell
+> brew reinstall pinentry-mac
+> gpgconf
+> rm /opt/homebrew/opt/pinentry/bin/pinentry
+> ln -s /opt/homebrew/bin/pinentry-mac /opt/homebrew/opt/pinentry/bin/pinentry
+```
