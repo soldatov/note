@@ -12,3 +12,7 @@ FROM information_schema.COLUMNS AS T
 WHERE LOWER(T.COLUMN_NAME) LIKE '%staff%'
 ORDER BY T.TABLE_SCHEMA, T.TABLE_NAME, T.COLUMN_NAME
 LIMIT 100;
+
+-- Поиск процедуры или функции
+-- Поле ROUTINE_TYPE может быть PROCEDURE или FUNCTION.
+SELECT * FROM information_schema.ROUTINES WHERE SPECIFIC_NAME like '%proc_name%'
