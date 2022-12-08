@@ -21,6 +21,7 @@ SELECT * FROM information_schema.ROUTINES WHERE SPECIFIC_NAME LIKE '%proc_name%'
 SELECT * FROM information_schema.TRIGGERS WHERE `TRIGGER_NAME` LIKE '%after%'
 
 -- Описание таблицы с полями
+set session group_concat_max_len = 10000000;
 select
 concat(t.TABLE_SCHEMA, '.', t.`TABLE_NAME`, '
 ', t.TABLE_COMMENT, '
