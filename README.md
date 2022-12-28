@@ -89,6 +89,10 @@
 * [Jenkins function list for pipeline](https://www.jenkins.io/doc/pipeline/steps/)
 * [Jenkins syntax](https://www.jenkins.io/doc/book/pipeline/syntax/)
 
+### Drone
+* [Drone CI](https://www.drone.io)
+* [Drone doc](https://docs.drone.io)
+
 ### S3
 * [Doc Minio](https://docs.minio.io/)
 * Github: [Amazon S3 PHP Class](https://github.com/tpyo/amazon-s3-php-class)
