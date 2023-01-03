@@ -1,3 +1,7 @@
 brew install --cask alt-tab
+
 brew install --cask mos
+cd /Applications
+xattr -d com.apple.quarantine Mos.app
+
 brew install openconnect
