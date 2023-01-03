@@ -1,2 +1,3 @@
 brew install --cask alt-tab
+brew install --cask mos
 brew install openconnect
