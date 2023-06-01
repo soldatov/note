@@ -18,7 +18,12 @@ LIMIT 100;
 SELECT * FROM information_schema.ROUTINES WHERE SPECIFIC_NAME LIKE '%proc_name%'
 
 -- Поиск по телу процедуры или функции
-SELECT * FROM information_schema.ROUTINES WHERE ROUTINE_DEFINITION LIKE '%search%'
+SELECT *
+FROM information_schema.ROUTINES
+WHERE ROUTINE_DEFINITION LIKE '%database.table%'
+    or ROUTINE_DEFINITION LIKE '%database`.table%'
+    or ROUTINE_DEFINITION LIKE '%database.`table%'
+    or ROUTINE_DEFINITION LIKE '%database`.`table%'
 
 -- Поиск триггера
 SELECT * FROM information_schema.TRIGGERS WHERE `TRIGGER_NAME` LIKE '%after%'
