@@ -17,6 +17,9 @@ LIMIT 100;
 -- Поле ROUTINE_TYPE может быть PROCEDURE или FUNCTION.
 SELECT * FROM information_schema.ROUTINES WHERE SPECIFIC_NAME LIKE '%proc_name%'
 
+-- Поиск по телу процедуры или функции
+SELECT * FROM information_schema.ROUTINES WHERE ROUTINE_DEFINITION LIKE '%search%'
+
 -- Поиск триггера
 SELECT * FROM information_schema.TRIGGERS WHERE `TRIGGER_NAME` LIKE '%after%'
 
