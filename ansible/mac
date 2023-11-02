@@ -9,6 +9,7 @@
 cd /Applications
 xattr -d com.apple.quarantine Mos.app
 > brew install --cask devtoys
+> brew install numi
 
 Включение темы для zsh
 > curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
