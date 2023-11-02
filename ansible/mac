@@ -1,7 +1,13 @@
-brew install --cask alt-tab
+Установка Homebrew.
+> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+> brew install
 
-brew install --cask mos
+Полезные пакеты
+> brew install git
+> brew install --cask alt-tab
+> brew install --cask mos
 cd /Applications
 xattr -d com.apple.quarantine Mos.app
 
-brew install openconnect
+Включение темы для zsh
+> curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
