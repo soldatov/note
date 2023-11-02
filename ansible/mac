@@ -8,6 +8,7 @@
 > brew install --cask mos
 cd /Applications
 xattr -d com.apple.quarantine Mos.app
+> brew install --cask devtoys
 
 Включение темы для zsh
 > curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
