@@ -1,1 +1,2 @@
 - github.com/mailru/easyjson - marshal/unmarshal стуктур без рефлексии.
+- github.com/samber/lo - Итератор всего, что итерируется.
